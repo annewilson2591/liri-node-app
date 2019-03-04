@@ -7,6 +7,45 @@ LIRI is a command line node app that takes in parameters and gives you back data
 * movie-this
 * do-what-it-says
 
+
+concert-this: this command will search Bands in Town Artist Events API to provide the following information: 
+
+* Name of the venue
+* Venue location
+* Date of the event 
+
+![Screenshot](./images/concert-this)
+
+
+spotify-this-song: this command will search Spotify to provide the following information:
+
+* Artist
+* Name of the song
+* A preview link of the song from Spotify
+* The albumn the song is from
+
+![Screenshot](./images/spotify-this-song)
+
+
+movie-this: this command will search the OMDB API to provide the following information:
+
+* Title of the movie
+* Year the movie came out
+* IMDB rating
+* Rotten Tomatoes rating
+* Country where the movie was produced
+* Language of the movie
+* Plot of the movie 
+* Actors in the movie
+
+![Screenshot](./images/movie-this)
+
+
+do-what-it-says: LIRI will use the text from random.text and call on each of the LIRI commands
+
+![Screenshot](./images/do-what-it-says)
+
+
 Technologies used:
 
 * Spotify API
